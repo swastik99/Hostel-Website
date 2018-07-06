@@ -1,0 +1,110 @@
+body{ background-color:#fef6f4;}
+img{
+	max-width:100%;
+	height:auto;
+}
+#map{
+	width:650px;
+	height:750px
+}
+p1{	
+	float:right;
+}
+h2{
+	text-align:center;
+}
+.topnav{
+	  overflow: hidden;
+      background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+c{	color:grey;
+
+}
+	
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+	
+}
+container .para{ color:black;}
+ul.topnav li {float: left;
+text-align:justify;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #4CAF50 ;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: center;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+	width:100%;
+}
+
+.swipe{
+    overflow:auto;
+    white-space:nowrap;
+	
+}
+.side{
+	float:right;
+}
+.contain{
+	padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto
+}hr.style{ 
+  height: 50px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 100px; 
+} 
+hr.style:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 100px; 
+}
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+h5{
+	display:inline;
+		text-shadow: 1px 1px blue;
+}
+.footer{
+
+	background-color:black;
+	color:white;
+	padding-top:30px;
+	padding-bottom:30px;
+	letter-spacing: 1px;
+}
+.footer_credit
+{		padding:5px;
+		text-align:center;
+}

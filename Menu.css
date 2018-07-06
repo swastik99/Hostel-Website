@@ -1,0 +1,23 @@
+table
+{	border: 3px dashed Black;
+	width:100%;
+	}
+	td{
+	border:1px solid green;
+	text-align:left;
+	padding:8px;
+}
+tr:nth-child(even){
+	background-color:lightgray;
+	}
+tr:nth-child(odd)
+{	background-color:white;
+}
+.inst
+{	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:120%;
+	margin-top:50px;
+}
+th, td{
+	text-align:center;
+}
